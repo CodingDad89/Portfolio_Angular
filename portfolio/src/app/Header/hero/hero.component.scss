@@ -1,15 +1,59 @@
 section {
     height: 100vh;
-    width: 1440px;
-    padding-left: 100px;
-    padding-right: 100px;
+    width: 100%;
+    max-width: 1440x;
     background-color: #fffcf3;
 }
 
 
 h1 {
   font-family: "Syne";
-  font-size: 200px;
+  font-size: 128px;
   font-style: normal;
   font-weight: 800;
+  margin: 0;
+  width: 1024px;
+}
+
+#FD_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#hero_name {
+  display: flex;
+  flex-direction: row;
+   justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+#hero_pfeil_email {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 100px;
+}
+
+#name {
+  height: 60px;
+  width: 384px;
+  font-size: 48px;
+  font-family: "Overpass", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #00BC8F;
+;
+
+}
+
+
+#email_tag {
+  rotate: 270deg;
+  display: flex;
+  align-items: flex-end;
 }
