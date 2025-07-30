@@ -20,12 +20,13 @@ h1 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding-top: 100px;
 }
 
 #hero_name {
   display: flex;
   flex-direction: row;
-   justify-content: center;
+  justify-content: center;
   align-items: center;
   gap: 20px;
 }
@@ -51,9 +52,10 @@ h1 {
 
 }
 
-
 #email_tag {
   rotate: 270deg;
   display: flex;
   align-items: flex-end;
 }
+
+
