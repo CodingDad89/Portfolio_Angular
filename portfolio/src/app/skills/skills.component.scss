@@ -12,11 +12,13 @@ section{
     border: black 4px solid;
     width: 1240px;
     margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #skills{
-    display: flex;
-    justify-content: center;
+    width: 536px;
     color: black;
     font-family: "Syne";
     font-size: 78px;
@@ -50,9 +52,7 @@ section{
     font-optical-sizing: auto;
     font-weight: 700;
     
-  >:hover{
-
-  }
+ 
   >a{
     text-decoration: none;
     display: flex;
