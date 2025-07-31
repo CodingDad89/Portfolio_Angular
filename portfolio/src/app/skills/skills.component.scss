@@ -1,0 +1,63 @@
+section{
+
+    background-color: #fffcf3;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+  
+}
+
+#skill_div{
+    border: black 4px solid;
+    width: 1240px;
+    margin-left: 100px;
+}
+
+#skills{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-family: "Syne";
+    font-size: 78px;
+    font-style: normal;
+    font-weight: 800;
+    margin-top: -50px;
+    background-color: #fffcf3;
+        &:hover{
+            color: green;
+        }
+    }
+
+#skill_tree{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 128px;
+        padding-left: 114px;
+        padding-right: 114px;
+    }
+
+#zusatz{
+    padding-top: 50px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 22px;
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    
+  >:hover{
+
+  }
+  >a{
+    text-decoration: none;
+    display: flex;
+    color: greenyellow;
+  }
+}
+
+
