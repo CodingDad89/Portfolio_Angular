@@ -1,0 +1,62 @@
+section{
+    background-color: #fffcf3;
+}
+
+#top{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1{
+    width: 536px;
+    color: black;
+    font-family: "Syne";
+    font-size: 78px;
+    font-style: normal;
+    font-weight: 800;
+    margin: 0;
+    background-color: #fffcf3;
+        &:hover{
+            color: green;
+        }
+    
+}
+
+p{
+    margin: 0;
+}
+
+#p_head{
+    width: 525px;
+    font-size: 22px;
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#project_count{
+    font-family: "Syne";
+    font-size: 48px;
+    font-style: bold;
+    font-weight: 700;
+    margin: 0;
+    height: 100%;
+    display: flex;
+  
+}
+
+#project{
+    width: 1239px;
+    height: 460px;
+    padding-left: 100px;
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
