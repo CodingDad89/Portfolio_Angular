@@ -1,0 +1,42 @@
+section{
+    width: 1440px;
+    height: 1061px;
+    background-color: black;
+}
+
+h1{
+    font-family: "Syne";
+    font-size: 78px;
+    font-style: normal;
+    font-weight: 800;
+    color: #FFFCF3;
+    padding-left: 100px;
+}
+
+h3{
+    font-size: 32px;
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #00BC8F;
+    margin: 0;
+    gap: 10px;
+}
+
+p{
+    font-size: 22px;
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFFCF3;
+}
+
+#head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
