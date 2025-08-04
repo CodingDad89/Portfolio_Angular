@@ -24,7 +24,7 @@ h3{
     gap: 10px;
 }
 
-p{
+#p{
     font-size: 22px;
     font-family: "Overpass", sans-serif;
     font-optical-sizing: auto;
@@ -40,3 +40,83 @@ p{
     flex-direction: column;
     
 }
+
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    >input{
+        width: 617px;
+        background-color: black;
+        border: none;
+        border-bottom: #FFFCF3 2px solid;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        font-family: "Overpass", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 16px;
+        color:#FFFCF3;
+    }
+    >textarea{
+        width: 617px;
+        height: 202px;
+        background-color: black;
+        border: none;
+        border-bottom: #FFFCF3 2px solid;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        font-family: "Overpass", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 16px;
+        color:#FFFCF3;
+    }
+}
+
+#check{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    >div{
+    display: flex;
+    text-align: center;
+    gap: 8px;
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color:#FFFCF3;
+    }
+
+}
+
+a{
+    color: #00BC8F;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    >&:hover{
+        font-style: oblique;
+    }
+}
+
+#checkbox{
+    height: 25px;
+    width: 25px;
+    background-color:black;
+    border: #FFFCF3 2px solid;
+}
+
+
+
+
+
