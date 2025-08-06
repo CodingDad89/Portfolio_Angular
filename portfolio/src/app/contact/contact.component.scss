@@ -61,6 +61,9 @@ h3{
         font-style: normal;
         font-size: 16px;
         color:#FFFCF3;
+        &:hover{
+            border: #FFFCF3 4px solid;
+        }
     }
     >textarea{
         width: 617px;
@@ -78,7 +81,11 @@ h3{
         font-style: normal;
         font-size: 16px;
         color:#FFFCF3;
+          &:hover{
+            border: #FFFCF3 4px solid;
+        }
     }
+
 }
 
 #check{

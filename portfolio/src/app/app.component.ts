@@ -9,10 +9,11 @@ import { ContactComponent } from './contact/contact.component';
 import { PortfolioSectionComponent } from './portfolio-section/portfolio-section.component';
 import { ReferenzComponent } from './referenz/referenz.component';
 import { ArrowBottomComponent } from './arrow-bottom/arrow-bottom.component';
+import { FooterComponent } from './footer/footer.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, HeaderComponent, AboutMeComponent, ArrowComponent, SkillsComponent, ArrowLeftComponent, ContactComponent, PortfolioSectionComponent, ReferenzComponent, ArrowBottomComponent],
+  imports: [RouterOutlet, HeaderComponent, AboutMeComponent, ArrowComponent, SkillsComponent, ArrowLeftComponent, ContactComponent, PortfolioSectionComponent, ReferenzComponent, ArrowBottomComponent, FooterComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
